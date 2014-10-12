@@ -3,8 +3,15 @@
     width:120px;
     height:120px;
     display:inline-block;
+	position:relative;
+	margin-right:-4px;
 }
 img {
     width:120px;
     height:120px;
+}
+.textforpicture{
+position:absolute;
+background-color:#fff;
+bottom:-16px;
 }
