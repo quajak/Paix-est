@@ -1,0 +1,10 @@
+.picture{
+    border: 5px solid black;
+    width:120px;
+    height:120px;
+    display:inline-block;
+}
+img {
+    width:120px;
+    height:120px;
+}
