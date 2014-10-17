@@ -1,17 +1,18 @@
 .picture{
     border: 5px solid black;
-    width:120px;
-    height:120px;
+    width:186px;
+    height:186px;
     display:inline-block;
 	position:relative;
 	margin-right:-4px;
 }
 img {
-    width:120px;
-    height:120px;
+    width:186px;
+    height:186px;
 }
 .textforpicture{
 position:absolute;
 background-color:#fff;
-bottom:-16px;
+top:-16px;
+opacity:0.3;
 }
