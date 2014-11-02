@@ -5,14 +5,27 @@
     display:inline-block;
 	position:relative;
 	margin-right:-4px;
+	margin
 }
 img {
     width:186px;
     height:186px;
 }
+.block{
+background-color:gray;
+opacity:0.5;
+width:186px;
+height:93px;
+position:absolute;
+top:0px;
+display:none;
+}
 .textforpicture{
 position:absolute;
-background-color:#fff;
+background-color:transparent;
 top:-16px;
-opacity:0.3;
+height:93px;
+width:180px;
+padding:3px;
+display:none;
 }

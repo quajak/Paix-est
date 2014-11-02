@@ -1,6 +1,9 @@
 $(document).ready(function() {
-$(".textforpicture").hide()
-    $(".picture").click(function(){
-        $(this).fadeOut();
-    });
+	var active;
+	$(".picture").on("click", function(){
+		if (active) {
+			active.hide();
+		}
+		active = $(this).find(".block,.textforpicture").show();
+	});
 });
